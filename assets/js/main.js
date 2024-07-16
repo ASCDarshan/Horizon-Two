@@ -8,6 +8,11 @@ function sendMail(event) {
     textarea: document.querySelector('textarea[name="textarea"]').value,
   };
 
+  if (!params.name || !params.number || !params.email || !params.textarea) {
+    alert("All fields are required.");
+    return false;
+  }
+
   const serviceID = "service_g6eqr9f";
   const templateID = "template_69j7uge";
 
