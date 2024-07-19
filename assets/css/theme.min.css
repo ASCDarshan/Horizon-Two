@@ -27191,6 +27191,11 @@ nav.post-nav .nav-next .nav-subtitle svg {
     .lqd-pf-meta-nav-classic-minimal .lqd-pf-nav-next i {
         margin-inline-start: 10px;
     }
+
+    .phoneView {
+        height: 300px;
+        width: 300px !important;
+    }
 }
 
 .lqd-pf-related-projects .flickity-button[disabled] {
